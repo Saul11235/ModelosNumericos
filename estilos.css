@@ -1,0 +1,78 @@
+/*Estilo para modelos numericos*/
+
+html, body {
+  height        : 100%;
+  font-size     : 1.15rem;
+}
+body {
+  display       : flex;
+  flex-direction: column;
+  font-family: Arial,Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+/* header-container-------- */
+.row-header{
+  padding-top   : 20px;
+  padding-bottom: 20px;
+  min-height    : 7rem;  
+}
+
+
+
+/* content------------------*/
+#content_page {
+  flex          : 1 0 auto;
+}
+.air {
+  margin-top    : -5px;
+  margin-bottom : 4px;
+  padding-top   : 0px;
+  padding-bottom: 4px;
+}
+.air-button {
+  margin        : 3px;
+  margin-bottom : 30px;
+
+}
+ /* skills ----------------- */
+.skill-container {
+  padding         : 20px;
+  justify-content : center;
+}
+.stylecard-skill {
+  border        : 1px white solid;
+  min-height: 220px;
+
+}
+.stylecard-headerskill {
+  border-bottom : 1px white solid;
+}
+
+/* contact ---------------- */
+.row-skill {
+  max-width    : 400px;
+}
+.contact-container {
+  border-radius : 20px;
+  margin        : 20px;
+  padding       : 20px;
+}
+
+/* footer ----------------- */
+.style-footer {
+  margin-top    : 20px;
+  flex-shrink   : 0;
+}
+.btn-footer {
+  padding-top   : 20px;
+  padding-bottom: 20px;
+  font-size     : 1.1em;
+}
+.icon-footer {
+  margin        : 10px;
+}
+
+#contenedor_principal {
+  
+}
