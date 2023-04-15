@@ -18,6 +18,13 @@ body {
   min-height    : 7rem;  
 }
 
+/* screen ho prime ----------*/
+.screen_prime {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
 
 
 /* content------------------*/
@@ -35,31 +42,7 @@ body {
   margin-bottom : 30px;
 
 }
- /* skills ----------------- */
-.skill-container {
-  padding         : 20px;
-  justify-content : center;
-}
-.stylecard-skill {
-  border        : 1px white solid;
-  min-height: 220px;
-
-}
-.stylecard-headerskill {
-  border-bottom : 1px white solid;
-}
-
-/* contact ---------------- */
-.row-skill {
-  max-width    : 400px;
-}
-.contact-container {
-  border-radius : 20px;
-  margin        : 20px;
-  padding       : 20px;
-}
-
-/* footer ----------------- */
+* footer ----------------- */
 .style-footer {
   margin-top    : 20px;
   flex-shrink   : 0;
