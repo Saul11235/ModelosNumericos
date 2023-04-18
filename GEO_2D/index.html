@@ -11,99 +11,94 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- icons Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <!-- estilo personalizado-->
+    <!-- Estilo Personalizado -->
     <link rel="stylesheet" href="../estilos.css" type="text/css">
   </head>
 
   <body>
+    <!-- BEGIN CONTAINER -->
+    <div class="container d-flex flex-column vh-100 min-vh-100 container_principal">
 
-    <div class="container">
-
-
-    <!-- Header ------------------------- --> 
-     <div class="row align-items-center row-header" >
-         <div class="display-4">
-	   Geometría 2D
-         </div>
-    <div class="row">
-      <p> Librerías instalables de 
-
-        Geometría 2D
-
-        para la aplicación
-        Modelos Numéricos, disponible para calculadoras Hp Prime.
-      </p>
-    </div>   
-
-    <!-- Menu ops ----- -->   
-    <div class="row ">
-      <span>
-	<!-- --------- -->
-	  <a href="../index.html" >
+      <!-- BEGIN container.header -->
+      <div class="row margin_bottom">
+	<div class="col"> <!-- BEGIN container.header.ITEMS -->
+	<!-- ITEM container.contenido.titulo -->
+          <div class="row align-items-center header_style" >
+            <div class="display-4">
+              Geometría 2D
+            </div>
+          </div>	
+	  <!-- BEGIN ITEM.LINK container.contenido.links --> 
+	  <span>
+	    <!-- ITEM.LINK - inicio -->
+            <a href="../index.html" >
             <span class="badge rounded-pill bg-black text-white">
 	      inicio
               <i class="bi bi-house"></i>
 	    </span>
-	  </a>
-	<!-- --------- -->
-	  <a href="../index.html#librerias" >
+	    </a>
+	    <!-- ITEM.LINK - mas lib-->
+	    <a href="../index.html#librerias" >
             <span class="badge rounded-pill bg-black text-white">
 	      más librerias
               <i class="bi bi-folder"></i>
 	    </span>
-	  </a>
-	<!-- --------- -->
-	  <a href="../p_manual.html" >
+	    </a>
+	    <!-- ITEM.LINK - mas lib-->
+	    <a href="../p_manual.html" >
             <span class="badge rounded-pill bg-black text-white">
-	      Manual uso Modelos Numéricos
+	      Manual App
               <i class="bi bi-book"></i>
 	    </span>
-	  </a>
-	<!-- --------- -->
-	  <a href="../p_instalacion_librerias.html" >
+	    </a>
+	    <!-- ITEM.LINK - mas lib-->
+	    <a href="../p_instalacion_librerias.html" >
             <span class="badge rounded-pill bg-black text-white">
-	      Cómo instalar librerias
+	      instalar librerias
               <i class="bi bi-share-fill"></i>
 	    </span>
-	  </a>
-	<!-- --------- -->
-	  <a href="../ModelosNumericos.zip" >
+	    </a>
+	    <!-- ITEM.LINK - mas lib-->
+	    <a href="../ModelosNumericos.zip" >
             <span class="badge rounded-pill bg-black text-white">
 	      Descargar App
               <i class="bi bi-download"></i>
 	    </span>
-	  </a>
-	<!-- --------- -->
-
-
-
-
-
-
-
-      </span>
-    </div>
-
-
-
-
-    <!-- contenido---------------------------- -->
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-col-xl-6 g-4 margin_bottom justify-content-center">
-      <!-- ----- -->
-      <a class="col btn "
-	href="001_cuadrado/index.html">
-	<img src="001_cuadrado/icono_lib.svg" alt="icono">
-	<p>Cuadrado</p>
-      </a>
- 
-      <!-- ----- -->
+	    </a>
+	  </span>
+	  <!-- END ITEM.LINK container.contenido.links --> 
+	</div> <!-- END container.header.ITEMS -->
       </div>
+      <!-- END container.header -->
+
+      <!-- BEGIN container.contenido-->
+      <div class="row flex-grow-1 overflow-y-auto row_contenido">
+	<div class="col">
+	  <!-- BEGIN ITEMS LINKS Modelos Numericos-->
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-col-xl-6 g-4 margin_bottom justify-content-center" >
+
+	    <!-- ITEM container.contenido.1_cuadrado -->
+            <a class="col btn "
+      	      href="001_cuadrado/index.html">
+      	      <img src="001_cuadrado/icono_lib.svg" alt="icono">
+      	      <p>Cuadrado</p>
+            </a>
+            <!-- ITEM container.contenido.2_trianguloE -->
+            <a class="col btn "
+      	      href="002_triangulo_equilatero/index.html">
+      	      <img src="002_triangulo_equilatero/icono_lib.svg" alt="icono">
+      	      <p>Triangulo equilátero</p>
+            </a>
  
 
+	  </div>
+	  <!-- END ITEMS LINKS Modelos Numericos-->
+	</div>
+      </div>
+      <!-- END container.contenido-->
 
-
-    <!-- footer---------------------------- -->
-      <div class="row text-center margin_top margin_bottom">
+      <!-- BEGIN container.footer-->
+      <div class="row text-center margin_top margin_footer">
 	<div class="column separador" >
 	  <a href="https://edwinsaul.com" 
 	     target="_blank" rel="noopener noreferrer" >
@@ -112,11 +107,15 @@
               <i class="bi bi-lightning-charge-fill"></i>
 	    </span>
 	  </a>
+        </div>
       </div>
-      </div>
+      <!-- END container.footer-->
 
 
 
+
+    </div>
+    <!-- END CONTAINER -->
 
 
 

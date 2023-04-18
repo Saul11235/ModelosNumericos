@@ -10,6 +10,7 @@ body {
   font-family: Arial,Helvetica, sans-serif;
   background-color: whitesmoke;
 }
+/*estilo para botones*/
 a {
   text-decoration: none;
 }
@@ -23,18 +24,23 @@ a:active {
   padding-bottom: 20px;
   min-height    : 7rem;  
 }
+.header_content {
+  background-color: darkblue;
+  align-items: flex-start;
 
-/* margin extra-------------*/
-.margin_top {
-  margin-top:30px;
 }
-.margin_bottom {
-  margin-bottom: 50px;
-}
+
+/* margin extra para ajuste */
+ 
+.margin_top    { margin-top    : 10px;}
+.margin_bottom { margin-bottom : 10px; }
+.margin_footer { margin-top : 10px; margin-bottom : 10px;}
 
 /* content------------------*/
 #content_page {
   flex          : 1 0 auto;
+  height: 100%;
+
 }
 .air {
   margin-top    : -5px;
@@ -42,4 +48,13 @@ a:active {
   padding-top   : 0px;
   padding-bottom: 4px;
 }
+
+/*clases para maquetar*/
+.container_principal {
+  /* background-color: red; */
+}
+.row_contenido {
+ /* background-color: blue; */
+}
+
 
