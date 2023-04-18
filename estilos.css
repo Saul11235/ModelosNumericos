@@ -17,6 +17,12 @@ a {
 a:active {
   border: 0px;
 }
+/*contenido documentacion */
+.img_centro {
+  justify-content: center;
+  align-self: center;
+  border: 1px black solid;
+}
 
 /* header-container-------- */
 .row-header{
