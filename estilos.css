@@ -10,6 +10,9 @@ body {
   font-family: Arial,Helvetica, sans-serif;
   background-color: whitesmoke;
 }
+a {
+  text-decoration: none;
+}
 
 /* header-container-------- */
 .row-header{
@@ -17,6 +20,7 @@ body {
   padding-bottom: 20px;
   min-height    : 7rem;  
 }
+
 /* margin extra-------------*/
 .margin_top {
   margin-top:30px;
