@@ -17,6 +17,11 @@ a {
 a:active {
   border: 0px;
 }
+/*estilo para tabla*/
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
 /*contenido documentacion */
 .img_centro {
   justify-content: center;
@@ -25,6 +30,9 @@ a:active {
 }
 .img_icon {
   max-height: 100px;
+}
+.img_diagrama {
+  max-width: 100%;
 }
 
 /* header-container-------- */
@@ -63,7 +71,19 @@ a:active {
   /* background-color: red; */
 }
 .row_contenido {
- /* background-color: blue; */
+  /*background-color: blue; */
+}
+.info_lib{
+  background-color: lightblue; 
+  border-radius: 20px;
+  color: black;
+  padding: 20px;
+
+}
+.cont_lib{
+  /*background-color: yellow; */
+
+  min-height: 50%;
 }
 
 
