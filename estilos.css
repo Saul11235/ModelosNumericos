@@ -23,6 +23,9 @@ a:active {
   align-self: center;
   border: 1px black solid;
 }
+.img_icon {
+  max-height: 100px;
+}
 
 /* header-container-------- */
 .row-header{
