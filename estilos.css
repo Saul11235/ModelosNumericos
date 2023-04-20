@@ -2,7 +2,7 @@
 
 html, body {
   height        : 100%;
-  font-size     : 0.95rem;
+  font-size     : 1.05rem;
 }
 body {
   display       : flex;
@@ -85,13 +85,10 @@ min-height:2rem;
   /*background-color: blue; */
 }
 .info_lib{
-  border-radius: 5px;
-  border-color: darkblue;
-  border-style: solid;
-  border-width: 1px;
-  
-  color: black;
-  background-color: lightblue; 
+  line-height: 1.2rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #454545; 
   padding: 20px;
 
 }
