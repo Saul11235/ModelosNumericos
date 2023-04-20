@@ -51,7 +51,11 @@ a:active {
  
 .margin_top    { margin-top    : 10px;}
 .margin_bottom { margin-bottom : 10px; }
-.margin_footer { margin-top : 10px; margin-bottom : 10px;}
+.style_footer{ 
+margin-top : 10px; 
+margin-bottom : 10px; 
+min-height:2rem;
+}
 
 .nav-item {
   padding-left: 2px;
