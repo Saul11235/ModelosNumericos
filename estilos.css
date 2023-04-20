@@ -31,8 +31,9 @@ a:active {
 .img_icon {
   max-height: 100px;
 }
-.img_diagrama {
+.img_content{
   max-width: 100%;
+  min-width: 30%;
 }
 
 /* header-container-------- */
@@ -85,12 +86,12 @@ min-height:2rem;
 }
 .info_lib{
   border-radius: 5px;
-  border-color: black;
+  border-color: darkblue;
   border-style: solid;
   border-width: 1px;
   
-  color: white;
-  background-color: #2a2d31; 
+  color: black;
+  background-color: lightblue; 
   padding: 20px;
 
 }

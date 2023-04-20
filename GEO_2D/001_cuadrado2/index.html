@@ -75,40 +75,42 @@
 	         </a>
 	       </li>
 	       <!-- item navbar  -->
-	       <li class="nav-item"<>
-                 <a href="../../ModelosNumericos.zip" >
-                   <span class="badge rounded-pill bg-success text-white">
-	             Descargar App
-                     <i class="bi bi-download"></i>
-	           </span>
-	         </a>
-	       </li>
-	       <!-- end item navbar  -->
-             </ul>
-           </div>
-          </div>
-        </nav>
+	     <li class="nav-item"<>
+	       <a href="../../ModelosNumericos.zip" >
+		 <span class="badge rounded-pill bg-success text-white">
+		   Descargar App
+		   <i class="bi bi-download"></i>
+		 </span>
+	       </a>
+	     </li>
+	     <!-- end item navbar  -->
+	   </ul>
+	 </div>
+	</div>
+      </nav>
+    </div>
+    <!-- END container.navbar-->
+
+
+    <!-- BEGIN container.header -->
+    <div class="row align-items-center header_style text-center margin_top margin_bottom" >
+      <div class="display-1" id="titulo">
+	Cuadrado
       </div>
-      <!-- END container.navbar-->
+    </div>	
+    <!-- END container.header -->
 
 
-      <!-- BEGIN container.header -->
-      <div class="row align-items-center header_style text-center margin_top margin_bottom" >
-        <div class="display-1" id="titulo">
-          Cuadrado
-        </div>
-      </div>	
-      <!-- END container.header -->
-
-
-      <!-- BEGIN container.contenido-->
-      <div class="row ">
-	<div class="col-md-12 col-lg-4 col-xl-3 align-items-center margin_bottom  ">
-	  <div class="info_lib">
+    <!-- BEGIN container.img.download -->
+    <div class="row align-items-center" style="margin:5px 0px 5px 0px;">
+      <div class="col-sm-12 col-md-4 col-lg-3"> 
+          <div class="info_lib">
 	    <p><strong>Descripción: </strong>
 	       esta librería abstrae el modelo de un cuadrado en el campo euclídeo de dimensiones reales (no complejas).</p>
-	    <p><strong>Autor: </strong> Edwin Saul</p>
-	    <p><strong>Tamaño: </strong> 1.1Kb</p>
+	    <p><strong>Autor: </strong> 
+	        Edwin Saul</p>
+	    <p><strong>Tamaño: </strong> 
+	        1.1Kb</p>
             <!-- BEGIN LINK DE DESCARGA -->
 	    <div class="row text-center">
 	    <h2>
@@ -120,42 +122,41 @@
 	    </a>
 	    </h2> 
 	    </div>
-            <!-- BEGIN LINK DE DESCARGA -->
+            <!-- END LINK DE DESCARGA -->
 	  </div>
-	</div>
+      </div>	
+      <div class="col-sm-12 col-md-8 col-lg-9"  >
+	  <img src="diagrama.svg" alt="imagen" class="fluid-img mx-auto d-block img_content"
+	  style="margin:5px 0px 5px 0px;">
+	</div>	
+      </div>	
+      <!-- END container.img.download -->
 
-
-
-
-	<div class="col-md-12 col-lg-8 col-xl-9 margin_top cont_lib">
-
-	   
-
-	  <img src="diagrama.svg" alt="imagen" class="fluid-img mx-auto d-block img_diagrama ">
-
-	  <h2><strong>Variables:</strong></h2>
-
-	  <div class="table-wrapper">
-<table class="table table-striped table-bordered">
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Nombre Variable</th>
-      <th>Unidad</th>
-      <th>Descripción</th>
-      <th>Rango esperado</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- ITEM variable -->
-    <tr>
-      <td>A</td>
-      <td>Area</td>
-      <td>unidad de superficie</td>
-      <td>Área del cuadrado</td>
-      <td>mayor o igual a 0</td>
-    </tr>
-    <!-- ITEM variable -->
+      <!-- BEGIN container,contenido -->
+      <div class="row">
+	<h2><strong>Variables:</strong></h2>
+	<div class="table-wrapper">
+	  <!-- BEGIN tabla-varibales -->
+          <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+              <th>Variable</th>
+              <th>Nombre Variable</th>
+              <th>Unidad</th>
+              <th>Descripción</th>
+              <th>Rango esperado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- ITEM -->
+              <tr>
+                <td>A</td>
+                <td>Area</td>
+                <td>unidad de superficie</td>
+                <td>Área del cuadrado</td>
+                <td>mayor o igual a 0</td>
+              </tr>
+            <!-- ITEM -->
     <tr>
       <td>L</td>
       <td>Lado</td>
@@ -179,45 +180,33 @@
       <td>Longitud del Diámetro del cuadrado</td>
       <td>mayor o igual a 0</td>
     </tr>
- 
-
-
-
-
-
-
-    </tr>
-  </tbody>
-</table>
+             </tr>
+            </tbody>
+          </table>
+	  <!-- BEGIN tabla-varibales -->
 	  </div>
-
+	  <!-- fin tabla -->
 	  <h2><strong>Ecuaciones del modelo:</strong></h2>
-
-	  <img src="ecuaciones.svg" alt="imagen" class="fluid-img mx-auto d-block img_diagrama ">
-
+	    <div class="row text-center" >
+	      <div class="col-sm-12 col-md-2"></div>
+	      <div class="col-sm-12 col-md-8 " >
+	         <img src="ecuaciones.svg" alt="imagen" class="fluid-img mx-auto d-block img_content">
+	      </div>
+	     </div>
 	  <h2><strong>Anotaciones:</strong></h2>
-	  <p> El presente modelo se basa sólo en longitudes y distancias positivas, cualquier otro 
+	  <p>
+	  El presente modelo se basa sólo en longitudes
+	  y distancias positivas, cualquier otro 
 	  valor no dará resultados satisfactorios.
 	  </p>
-
-
-
-	  <h2><strong>Referencias:</strong></h2>
-
-<ul class="list-group">
-  <li class="list-group-item">https://es.wikipedia.org/wiki/Cuadrado</li>
-</ul>
-
-
-
-
-
-	</div>  
-
-
-
+          <h2><strong>Referencias:</strong></h2>
+          <ul class="list-group">
+            <li class="list-group-item">https://es.wikipedia.org/wiki/Cuadrado</li>
+          </ul>
       </div>
-      <!-- END container.contenido-->
+      <!-- END container,contenido -->
+
+
 
       <!-- BEGIN container.footer-->
       <div class="row text-center margin_top margin_bottom style_footer">
@@ -234,13 +223,8 @@
       <!-- END container.footer-->
 
 
-
-
     </div>
     <!-- END CONTAINER -->
-
-
-
 
 
     <!-- Bootstrap JS -->
