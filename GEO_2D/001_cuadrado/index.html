@@ -18,62 +18,94 @@
   </head>
 
   <body>
+
+
     <!-- BEGIN CONTAINER -->
     <div class="container d-flex flex-column vh-100 min-vh-100 container_principal">
 
-      <!-- BEGIN container.header -->
-      <div class="row margin_bottom">
-	<div class="col"> <!-- BEGIN container.header.ITEMS -->
+      <!-- BEGIN container.navbar-->
+      <div class="row">
 
-	  <!-- BEGIN ITEM.LINK container.contenido.links --> 
-	  <div class="container-fluid text-center">
-	  <span>
-	    <!-- ITEM.LINK - inicio -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid text-center ">
+    <a class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-center">
+        <li class="nav-item">
+            <!-- ITEM.LINK - inicio -->
             <a href="../../index.html" >
             <span class="badge rounded-pill bg-black text-white">
 	      inicio
               <i class="bi bi-house"></i>
 	    </span>
 	    </a>
-	    <!-- ITEM.LINK - mas lib-->
-	    <a href="../../index.html#librerias" >
+	    <!-- end item --> 
+        </li>
+        <li class="nav-item">
+	  <!-- -->
+            <a href="../../index.html#librerias" >
             <span class="badge rounded-pill bg-danger text-white">
 	      todas las librerias
               <i class="bi bi-folder"></i>
 	    </span>
 	    </a>
-	    <!-- ITEM.LINK - mas lib-->
-	    <a href="../index.html" >
+	  <!-- -->
+        </li>
+        <li class="nav-item">
+          <!-- -->
+            <a href="../index.html" >
             <span class="badge rounded-pill bg-primary text-white">
 	      librerias similares
               <i class="bi bi-folder"></i>
 	    </span>
 	    </a>
-	    <!-- ITEM.LINK - mas lib-->
-	    <a href="../../p_manual.html" >
+	  <!-- -->
+        </li>
+	<li>
+            <a href="../../p_manual.html" >
             <span class="badge rounded-pill bg-black text-white">
 	      Manual App
               <i class="bi bi-book"></i>
 	    </span>
 	    </a>
-	    <!-- ITEM.LINK - mas lib-->
-	    <a href="../../p_instalacion_librerias.html" >
+	</li>
+	<li>
+            <a href="../../p_instalacion_librerias.html" >
             <span class="badge rounded-pill bg-black text-white">
 	      instalar librerias
               <i class="bi bi-share-fill"></i>
 	    </span>
 	    </a>
-	    <!-- ITEM.LINK - mas lib-->
-	    <a href="../../ModelosNumericos.zip" >
+	</li>
+	<li>
+            <a href="../../ModelosNumericos.zip" >
             <span class="badge rounded-pill bg-success text-white">
 	      Descargar App
               <i class="bi bi-download"></i>
 	    </span>
 	    </a>
-	  </span>
-	  </div>
-	  <!-- END ITEM.LINK container.contenido.links --> 
 
+	</li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+      </div>
+      <!-- BEGIN container.navbar-->
+
+
+
+      <!-- BEGIN container.header -->
+      <div class="row margin_bottom">
+	<div class="col"> <!-- BEGIN container.header.ITEMS -->
 
 	<!-- ITEM container.contenido.titulo -->
           <div class="row align-items-center header_style text-center margin_top margin_bottom" >
@@ -176,11 +208,8 @@
 	  </div>
 
 	  <h2><strong>Ecuaciones del modelo:</strong></h2>
-	  <p>
-	  A=L^2 </br>
-	  P=4*L </br>
-	  D=L+3^0.5
-	  </p>
+
+	  <img src="ecuaciones.svg" alt="imagen" class="fluid-img mx-auto d-block img_diagrama ">
 
 	  <h2><strong>Anotaciones:</strong></h2>
 	  <p> El presente modelo se basa sólo en longitudes y distancias positivas, cualquier otro 
