@@ -2,7 +2,7 @@
 
 html, body {
   height        : 100%;
-  font-size     : 1.rem;
+  font-size     : 0.95rem;
 }
 body {
   display       : flex;
@@ -53,6 +53,12 @@ a:active {
 .margin_bottom { margin-bottom : 10px; }
 .margin_footer { margin-top : 10px; margin-bottom : 10px;}
 
+.nav-item {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+}
+
 /* content------------------*/
 #content_page {
   flex          : 1 0 auto;
@@ -74,16 +80,20 @@ a:active {
   /*background-color: blue; */
 }
 .info_lib{
-  background-color: lightblue; 
-  border-radius: 20px;
-  color: black;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  
+  color: white;
+  background-color: #2a2d31; 
   padding: 20px;
 
 }
 .cont_lib{
   /*background-color: yellow; */
-
   min-height: 50%;
 }
+
 
 
