@@ -4,51 +4,33 @@ html, body {
   height        : 100%;
   font-size     : 1.05rem;
 }
-
 body {
-  display         : flex;
-  flex-direction  : column;
-  font-family     : Arial,Helvetica, sans-serif;
+  display       : flex;
+  flex-direction: column;
+  font-family: Arial,Helvetica, sans-serif;
   background-color: whitesmoke;
 }
-
 /*estilo para botones*/
-
 a {
   text-decoration: none;
 }
-
 a:active {
   border: 0px;
 }
-
 /*estilo para tabla*/
-
 .table-wrapper {
-  overflow-x : auto;
-  max-width  : 100%;
+  overflow-x: auto;
+  max-width: 100%;
 }
-
-/*navbar */
-
-.nav-item {
-  padding-left  : 2px;
-  padding-right : 2px;
-  padding-top   : 0px;
-}
-
 /*contenido documentacion */
-
 .img_centro {
   justify-content: center;
-  align-self     : center;
-  border         : 1px black solid;
+  align-self: center;
+  border: 1px black solid;
 }
-
 .img_icon {
   max-height: 100px;
 }
-
 .img_content{
   max-width: 100%;
   min-width: 30%;
@@ -60,7 +42,6 @@ a:active {
   padding-bottom: 20px;
   min-height    : 7rem;  
 }
-
 .header_content {
   background-color: darkblue;
   align-items: flex-start;
@@ -68,27 +49,27 @@ a:active {
 }
 
 /* margin extra para ajuste */
-.margin_top    { 
-  margin-top    : 10px;
-}
-
-.margin_bottom { 
-  margin-bottom : 10px; 
-}
-
+ 
+.margin_top    { margin-top    : 10px;}
+.margin_bottom { margin-bottom : 10px; }
 .style_footer{ 
-  margin-top    : 10px; 
-  margin-bottom : 10px; 
-  min-height    : 2rem;
+margin-top : 10px; 
+margin-bottom : 10px; 
+min-height:2rem;
 }
 
-/* content */
+.nav-item {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+}
 
+/* content------------------*/
 #content_page {
-  flex  : 1 0 auto;
+  flex          : 1 0 auto;
   height: 100%;
-}
 
+}
 .air {
   margin-top    : -5px;
   margin-bottom : 4px;
@@ -96,12 +77,25 @@ a:active {
   padding-bottom: 4px;
 }
 
-/* panel descarga lib*/
-
-.info_lib{
-  line-height     : 1.2rem;
-  border-radius   : 10px;
-  color           : white;
-  background-color: #454545; 
-  padding         : 20px;
+/*clases para maquetar*/
+.container_principal {
+  /* background-color: red; */
 }
+.row_contenido {
+  /*background-color: blue; */
+}
+.info_lib{
+  line-height: 1.2rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #454545; 
+  padding: 20px;
+
+}
+.cont_lib{
+  /*background-color: yellow; */
+  min-height: 50%;
+}
+
+
+
